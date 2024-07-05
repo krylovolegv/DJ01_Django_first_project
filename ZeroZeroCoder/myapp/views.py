@@ -10,3 +10,5 @@ def data_view(request):
 def test_view(request):
     return HttpResponse("<h1>Страница Test</h1><p>Это страница для тестов Test</p>")
 
+def new_index(request):
+    return render(request, 'myapp/new_index.html')
