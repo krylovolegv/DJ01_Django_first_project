@@ -4,11 +4,11 @@ from django.shortcuts import render  # Добавлен импорт функц�
 def index_view(request):
     return render(request, 'myapp/index.html')
 
-def data_view(request):
-    return HttpResponse("<h1>Страница Data</h1><p>Это страница для данных Data</p>")
-
-def test_view(request):
-    return HttpResponse("<h1>Страница Test</h1><p>Это страница для тестов Test</p>")
-
-def new_index(request):
+def art_view(request):
     return render(request, 'myapp/new_index.html')
+
+def training_view(request):
+    return render(request, 'myapp/training.html')
+
+def events_view(request):
+    return render(request, 'myapp/events.html')
