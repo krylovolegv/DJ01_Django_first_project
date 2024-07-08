@@ -1,3 +1,10 @@
 body{
-    background-color: olive;
+    background-color: #f0f0f0;
  }
+ .sidebar {
+    background-color: #e0e0e0; /* Цвет для бокового меню */
+}
+
+main {
+    background-color: #ffffff; /* Белый цвет для основного содержимого */
+}

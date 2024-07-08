@@ -1,10 +1,7 @@
 {% extends 'myapp/layoute.html' %}
 
-{% block title %}
-    <title>Первая страничка на Джанго</title>
-{% endblock %}
-
-{% block content%}
-  {% include 'myapp/nav.html'%}
-    <p> Урок номер 2 по изучению фреймворка django</p>
+{% block title %}Главная страница{% endblock %}
+{% block content %}
+<h1>Добро пожаловать в KatanaClub</h1>
+<p>Здесь вы найдете информацию о нашем клубе и его деятельности.</p>
 {% endblock %}
