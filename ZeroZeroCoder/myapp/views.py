@@ -2,7 +2,10 @@ from django.http import HttpResponse
 from django.shortcuts import render  # Добавлен импорт функции render
 
 def index_view(request):
-    return render(request, 'myapp/index.html')
+    data = {
+        'caption': "KatanaClub"
+    }
+    return render(request, 'myapp/index.html', data)
 
 def art_view(request):
     return render(request, 'myapp/new_index.html')
